@@ -1,0 +1,46 @@
+{
+    "disk": [
+        {
+            "filesystem": "/dev/sda1",
+            "size_kb": 78425224,
+            "used_kb": 41082788,
+            "avail_kb": 34097696,
+            "use_percent": "55%",
+            "mount": "/"
+        },
+        {
+            "filesystem": "/dev/sda15",
+            "size_kb": 258087,
+            "used_kb": 142,
+            "avail_kb": 257946,
+            "use_percent": "1%",
+            "mount": "/boot/efi"
+        }
+    ],
+    "cpu": {
+        "load_1m": 1.14,
+        "load_5m": 1.05,
+        "load_15m": 0.96
+    },
+    "cpu_stats": {
+        "user": 743383308,
+        "nice": 83116740,
+        "system": 1249677057,
+        "idle": 8284234286,
+        "iowait": 9180922,
+        "irq": 0,
+        "softirq": 117702254
+    },
+    "memory": {
+        "total_kb": 3907352,
+        "used_kb": 2215104,
+        "free_kb": 460596,
+        "shared_kb": 4264,
+        "cache_kb": 1231652,
+        "available_kb": 1386244
+    },
+    "uptime": {
+        "uptime_seconds": 35178563.86,
+        "idle_seconds": 82842342.87
+    }
+}
