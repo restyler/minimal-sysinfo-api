@@ -4,7 +4,7 @@
 set -e
 
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-SERVICE_NAME="n8n-server-monitoring"
+SERVICE_NAME="minimal-sysinfo-api"
 SERVICE_FILE="/etc/systemd/system/${SERVICE_NAME}.service"
 TEMPLATE_FILE="${SCRIPT_DIR}/${SERVICE_NAME}.service.template"
 PORT=8090

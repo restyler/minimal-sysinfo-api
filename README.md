@@ -80,8 +80,8 @@ This lightweight monitoring solution provides essential server metrics via a sim
 1. **Clone the repository or download the scripts:**
 
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/restyler/minimal-sysinfo-api
+   cd minimal-sysinfo-api
    ```
 
 2. **Run the installation script:**
@@ -93,7 +93,7 @@ This lightweight monitoring solution provides essential server metrics via a sim
 3. **Check the service status:**
 
    ```bash
-   systemctl status n8n-server-monitoring
+   systemctl status minimal-sysinfo-api
    ```
 
 4. **Access the monitoring endpoint:**
@@ -105,7 +105,7 @@ This lightweight monitoring solution provides essential server metrics via a sim
 5. Restart the service:
 
    ```bash
-   sudo systemctl restart n8n-server-monitoring
+   sudo systemctl restart minimal-sysinfo-api
    ```
 
 6. Uninstall the service:
