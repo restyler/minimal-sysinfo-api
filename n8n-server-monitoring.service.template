@@ -1,0 +1,17 @@
+[Unit]
+Description=N8N Server Monitoring
+After=network.target
+
+[Service]
+ExecStart=__SCRIPT_DIR__/server.sh
+WorkingDirectory=__SCRIPT_DIR__
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=__SERVICE_NAME__
+User=__USER__
+Environment="PORT=__PORT__"
+
+[Install]
+WantedBy=multi-user.target 
