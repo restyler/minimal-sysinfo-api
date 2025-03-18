@@ -3,6 +3,8 @@
 A minimalistic approach to server monitoring, initially built for n8n to poll data from multiple servers.
 I have built this because I think maintaining Prometheus and Nagios is a bit of an overkill for my use case [(and apparently I am not the only one)](https://community.n8n.io/t/suggestion-to-monitor-server-cpu-memory-disks/88991).
 
+This was only tested on Ubuntu 20+.
+
 ## Overview
 
 This lightweight monitoring solution provides essential server metrics via a simple HTTP endpoint. It's designed to be:
